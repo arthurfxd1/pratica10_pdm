@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="usuario" />
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="senha"
+        android:inputType="textPassword" />
+
+    <Switch
+        android:id="@+id/lembrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lembrar-me" />
+
+    <Button
+        android:id="@+id/botao_entrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="entrar" />
+</LinearLayout>

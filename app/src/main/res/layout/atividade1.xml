@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/campo_texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="digite aqui"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/botao_adicionar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="adicionar" />
+
+    <Button
+        android:id="@+id/botao_limpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="limpar" />
+
+    <TextView
+        android:id="@+id/texto_salvo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
